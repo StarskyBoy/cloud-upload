@@ -1,13 +1,11 @@
-<h2 align="center">Cloud Microservice Architecture</h2> 
+<h2 align="center">cloud-upload Microservice Architecture</h2> 
 <p align="center">
-  <img src="https://img.shields.io/badge/Spring%20Cloud-Edgware.RELEASE-orange.svg" alt="Coverage Status">
+  <img src="https://img.shields.io/badge/Spring%20Cloud-Edgware.SR5-orange.svg" alt="Coverage Status">
   <img src="https://img.shields.io/badge/Spring%20Boot-1.5.9.RELEASE-blue.svg" alt="Downloads">
 </p>
 
 #### 简介
-经过近段时间的折腾，对spring cloud有一定的理解，自己也创建了微信公众号：米兜Java，就想分享一些Java资料，一开始也写了一些博客，不过转载的比较多，转载多了发现特别不爽，就想自己抒发点感情，就决定自己做一些spring cloud code demo及博客demo。
-
-本demo，可能倾向周立的Spring Cloud Edgware RELEASE版本，因为参考了周老师的微服务架构实战（第2版）书籍，不过内容及想法必定来自个人改良，望各位指点纠正。
+cloud项目在使用zuul上传大文件时，报When uploading big files (>1GB, smaller files work fine when using the /zuul/* path), zuul seems to 'forget' to send the multipart data for 'file'. This results in a "Required request part 'file' is not present" in the service异常。此项目对该问题进行修复。
 
 #### 软件架构
 软件架构说明
