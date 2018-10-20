@@ -8,7 +8,7 @@
 cloud项目在使用zuul上传大文件时，报When uploading big files (>1GB, smaller files work fine when using the /zuul/* path), zuul seems to 'forget' to send the multipart data for 'file'. This results in a "Required request part 'file' is not present" in the service异常。此项目对该问题进行修复。
 
 #### 软件架构
-软件架构说明
+软件架构说明-详见注解。
 
 
 #### 贡献者
